@@ -1,4 +1,4 @@
-Postitus 3 (17.02.25 18:10)
+3 Postitus (17.02.25 18:10)
 
 Kohtusime eelmisel nädalal (10.02.25) meie kliendiga (õpilased). 2 õpilast - Catarina ja Eleonora suhtlesid meiega ja see oli positiivne kogemus. Kohtusime Prantsuse Lütseumis Tallinnas. Saime teada, mida klient soovib ja kuidas ta seda soovib. Ettekujutus projektist muutus, kuna esialgu meil oli natukene teine visioon mis funktsionaalsus peab seal olema.
  Me mõtlesime, et teeme nagu facebook timeline, kus üleval tekivad kõige uued postitused ja all vanad, like/dislike süsteem ja kõige populaarsemad mõtted ja arvamused läksid kooli juhtkonnale ja sealt tuleb juba otsus. 
