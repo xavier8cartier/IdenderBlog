@@ -1,0 +1,116 @@
+09.06.2025 (esimene päev). 
+
+
+Esimene päev lõppes enam-vähem hea tulemusega. Plaanis oli rohkem, aga esimene päev jah, ei olnud VÄGA produktiivne aga siiski okei. Takistuseks oli see, et me alustamise projektiga umbes lõuna paigal ja ei saanud kuidagi githubi tööle - kas ei saanud faile mergida omavahel või ei saanud kopeerida teise liikme koodi. Lisaks Alina läks ära umbes 12:20 ära - oli räägitud, et nii sama, põhjuseta (küll tal oli nagu põhjus - TRENN) ta ei lahku meie töökohast. Lubas, et üritab muuta oma treeningu ajakavat.  
+Kliendiga kontakti polnud, võtame ühendust temaga 12.06.
+Midagi tähtsamat muidu pole juhtunud täna, alustame tööga ja vaatame kuidas läheb. 
+
+Täna rolli osas meil oli nii:
+Ksaveri - front-end - landing page, päevikud ja blog.
+Nikita, Adrian - back-end - MySQL, API. 
+Alina - N/A.
+Aleksandra - front-end - create sign up page, mock-up.
+Jonas - front-end - create login page. 
+
+GENERAL:
+Jiras tehtud SCRUM tabel ja jagatud ülesanded esimeseks päevaks. 
+
+
+BACK-END:
+
+Oli tehtud eraldi phpmyadmin (MySQL) andmebaas just IDENDERi jaoks.
+API endpointi kirjutamine ja püstitamine (oauth). 
+
+
+FRONT-END:
+
+Next.js projekt initsialiseeritud ja jagatud laiali rühmas. 
+Mock-upi ülesehitamine algus.
+Landing page - tehtud. 
+Sign up ja Login lehed - alustatud, WIP. 
+
+
+
+PLANNED FOR NEXT DAY: 
+
+Teha login ja signup lehed lõppuni - front-end.
+APId töökorras ja on võimalus luua sessioone - back-end.
+Database-simulator unustatud ja päris andmed sisestatud andmebaasi phpmyadminis. 
+
+
+
+
+
+10.06.20 (teine päev)
+
+Ksaveri - N/A.
+Nikita, Adrian - back-end - andmed sisestatud andmebaasi, oauth tehtud lõppuni. APId ühendatud andmebaasiga. 
+Alina - front-end -signup tehtud lõppuni, terve leht töötab korralikult. 
+Aleksandra - front-end - microfile leht tehtud lõppuni (microfile - user settings, tegemata lõppuni)
+Jonas - front-end - login lehe ja signup lehe funktsionaalsus ja töövõimekus. Jälgis kuidas andmed renderiksid. 
+
+GENERAL: 
+
+N/A. 
+
+
+
+
+
+PLANNED FOR NEXT DAY:
+
+Teha lõpuni kõik mis oli tegemata täna. 
+Teha Create my ideas page 
+Create “new idea” form
+Create voting page. 
+API oauth (kontroll, testimine). API kirjutamine andmete kättesaamiseks. 
+Api for voting
+
+
+11.06.25 (kolmas päev)
+Täna jätkasime eilse tööga ja kõik oli korras. Kõik töötasid oma tempos, lõppuks kõik eesmärgid mis olid plaanitud tänaseks - tehtud. Isegi natuke rohkem jõudsime teha.  CORS back-endis - tehtud korda. Nüüd kui user on logitud sisse - session enam ei alga uuesti kui ta liigub ühest lehest teisele - alles kui vajutab “logout” - session lõppeb. Üldiselt back-endis peaaegu kõik endpointid on tehtud, nüüd ka vaja need testida ja vajadusel muuta. Muidu front suhtleb hästi back-endiga ja mingid tõrged ei ole täheldanud. Kõige ebamugavam oli see, et päeva lõpus 4 tunnine töö frontis (marsruutide muutmine, koodi ümberkirjutamine, packagite nime muutmine jne) oli peaaegu kaotatud, kuna git pulli abil arvutis tekkis vana fronti versioon. Õnneks restorisime git pop kaudu ja oli korras. Meeskonnas kõik korras, iga üks tegi oma töö korralikult ja ilma suure muredeta. Kliendiga ühendust polnud.
+
+Ksaveri - front-end - new idea page tehtud, marsruudid muudetud, lehed omavahel seotud.
+Nikita, Adrian - back-end - CORS, API endpoindid ja nende testimine, andmebaas tühjaks tehtud ja uued andmed sisestatud. 
+Alina - front-end/back-end - OTP süsteemi loomine, create my ideas page.
+Aleksandra - front-end - idea voting page, fetch user data from API.
+Jonas - front-end - tegeles login page lõppuni, home page tehtud. 
+
+
+GENERAL:
+
+N/A
+
+BACK-END:
+
+CORS.
+API endpoints and tests. 
+New data to database.
+OTP.
+
+
+FRONT-END:
+
+New idea page.
+Routes changed.
+Idea voting page.
+OTP.
+Create my ideas page.
+Login page.
+Home page changed.
+ fetch user data from API.
+
+
+PLANNED FOR NEXT DAY:
+
+Kontrollida ja testida kõik lehed mis meil on.
+Kontrollida API, et fetchida kõike.
+Kontrollida, et vead tekivad kuskil või mitte.
+Front-endi struktuur.
+Disain.
+Like & dislike süsteem.
+Kommentaarid.
+Alustada tõlkega eesti ja prantsuse keele.
+
+
+12.06.25
