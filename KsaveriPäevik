@@ -1,0 +1,34 @@
+09.06.25
+Esimene päev hakkas pihta. Olen entusiastlik ja full of energy. Väga ootasin seda hetki, kui me päriselt hakkame midagi kirjutama ja tegema - kõik need õppeained nagu sissejuhatus infosüsteemidesse ja interaktsiooni disain küll on väga vahvad ja kasulikud, aga oli ikka igav.
+Aga see selleks, nüüd keskendun projekti arendamise osas. 
+
+Oli tehtud JIRAs SCRUM tabeli eesmärgid ja pean ütlema - väga mugav süsteem see on, saab vaadata ja jälgida kes mida teeb. 
+Next.js kasutamine - mul polnud kogemust see frameworkiga, aga Nikital oli. Isegi Nikita on ainuke kes töötas varem sellega. 
+Õnneks ta teab ja oskab kasutada seda frameworki hästi, aitab meile kõigile. Mina töötasin Landing Page (home page) kallal. Ja ainult vaatan otse, et seda raamistiku teha endale selgeks. 
+Lisaks koos Aleksandraga leidsime VSC head extensioni nagu mobileview, mis kohe VSCs näitab kuidas meie veebileht näeks välja nutitelefoni ekraanil. 
+
+Praegu ma olen ka sujuv rollis - kui vaja hakkan tegelema back-endiga, kui front-endis kedagi pole tarvis - olen seal. 
+Sama ajal tegelen Blogiga, vastutan dokumentatsiooni kirjutamise eest ja jälgin, et kõik teised teeksid nii nagu ütleb Nikita. Nikita on praegu HOD (Head of Development) kuna tal on kõige rohkem kogemust mõnede projekti arendamisega. 
+
+Kliendiga mingit ühendust polnud. 
+
+Muidu väga huvitab mis ootab meid ees, kuna me ei töötanud kordagi veel nagu üks meeskond. Loodan, et saame kõik teha koos!
+
+10.06.25
+Täna kahjuks mind polnud kohal, kuna oli vaja vanaema viia arsti juurde - esialgu mõtlesin, et see ei võta palju aega, aga olin haiglas kokku umbes 3 tundi ja siis ei olnud juba mõtted kooli sõita, kuna aeg oli 14:06 siis kui hakkasin vanaemad vanemate juurde viia. 
+Õnneks Nikita mulle rääkis mida nad tegid täna ja ta ei olnud üldse rahul, kuna Aleksandra, Alina ja Jonas ei täitnud oma eesmärki, miks nad seda ei teinud - kahjuks ei oska ma öelda. 
+Nikita ütles, et tahab, et kõik oleksid homme kohal raudselt kell 9:00. Muidu arusaadav, kuna ta kardab, et me ei jõua projekti lõppu viia, aga ikka üritame. Homme juba saan kirjutada rohkem homse päeva kohta - ikka olen kohal. 
+
+11.06.25
+Huvitav päev täna oli - jõudsime teha päris mitu asju. 
+Front-endi osas peaaegu kõik kõige tähtsamad lehed meil on tehtud. Küll on jäänud veel palju nagu kommentaarid, admin vaate, likes and dislikes, terve süsteemi kontroll ja testimine jne. 
+Back-endi osas nagu väidas Nikita peaaegu ka kõik APId on tehtud ja töötavad - no aga ikka me teame kuidas praktikas see käib: paneme käima - tekkis CORS viga millega Nikita ja Adrian tegelesid suht palju aega, siis tekkis mingi viga andmebaasiga ja nemad tegid seda tühjaks ja panid uued andmed. 
+Ma tegelesin täna frontiga ja tegin “New idea” lehe. Kasutasin komponendid shadcn frameworkist, kontrollisin, et kõik töötaks. 
+Siis mina ja Nikita muutsime terve projekti koodi marsruudid VSC, et see oleks ilus ja arusaadav. JA siiiiis tekkis suht ohtlik olukord terve tänase tööga - ühesõnaga, me kõik kasutame GitHubi selleks, et koodi osad omavahel jaotada ja alla laadida seda mis vaja. 
+Ma täna ei teinud ühtegi commiti, kuna plaan oli selline - ma teen oma osa ära, ma muudan marsruudid, teised liikmed pushivad oma commiti. Ma pullin need, kontrollin, et kõik töötaks minu osaga ja alles siis pushin terve õige front-endi osa Gitti. 
+AGA juhtus nii, et Jonas tegi ühte pushi pärast seda kui ma pullisin iga ühe koodi - ma ei täheldanud seda ja desktop githubis vajutasin PULL (isegi push võimalust polnud, kuna minu kood ei olnud kõige “uuem”, kuna jälle - see Jonasi kood tuli hiljem). 
+KÕIK MUUDATUSED VIIMASE 4 TUNDI JOOKSUL KADUSID ÄRA. Mina, Adrian ja Nikita hakkasime naerma ja nutma samal ajal. Mõtlesime, et kõik… Tuleb algusest tegema. Aga õnneks ma leidsin ühte käsku nagu git stash pop ja õige versioon uuesti tekkis. OJAH, VOT SEE OLI HEA.
+
+
+Muidu kasulik töö osas päev ja nüüd lähen magama. 
+
