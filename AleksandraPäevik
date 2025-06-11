@@ -1,0 +1,32 @@
+09.06.2025
+Täna oli projekti esimene päev.Alustasime projektiga ja võtsime asja rahulikult, aga saime ikkagi palju tehtud ja õpitud!
+Minu jaoks oli päeva peamine õppimine seotud Giti ja versioonihaldusega. 
+Sain teada, kuidas laadida githubist alla repositooriumi uusim versioon. Tänu sellele mõistsin paremini, kuidas tiimitöös vältida konflikte ja töötada sama koodibaasi kallal.
+Tehnilisest poolest tegelesin täna frontendiga,Signup lehe loomisega Next.js-i abil. Õppisin, et Next.js võimaldab kasutada valmis komponente,näiteks lisasin Button ja Alert komponendid ning õppisin, kuidas neid importida ja rakendada. 
+Avastasin ka kasuliku VSC laienduse Mobile View, mis aitab kujundust mobiilis paremini näha,kuid kahjuks seal oli ainult 3 mobiili valiku aga igal juhul see on mugav ja kasulik asi. Lõpuks õppisin, kuidas lisada konkreetne font (kasutasime Helveticat).
+Refleksioonina õppisin, et hea arendusprotsess algab õigetest tööriistadest ja heast meeskonnasuhtlusest,meil täna pole konfilkte. 
+Tänane kogemus näitas mulle, kui oluline on kohe alguses paika panna tööriistad ja kokkulepped, et hiljem töö sujuks.Üldiselt oli päev informatiivne ja motiveeriv. 
+Meeskonnaga töötamine tundub hetkel väga sujuv ja innustav – loodetavasti suudame selle tunde säilitada kogu projekti vältel.
+
+10.06.2025
+Täna keskendusin "My Profile" lehe tegemisele. Sinna läks kasutaja nimi, e-post, profiilipildi üleslaadimine ja võimalus valida endale sobiv keel. 
+See keelevalik pidi jääma püsima isegi pärast refresh’i, nii et õppisin ära, kuidas js cookie abil salvestada valik küpsisesse.
+See osa oli eriti põnev, sest kuigi ma olin varem umbes teadnud, mis cookies on ja miks neid kasutatakse, siis päris koodis neid ise rakendada oli minu jaoks esmakordne kogemus. 
+Väga lahe oli näha, kuidas üks selline väike asi suudab kasutaja eelistused meeles pidada – ja arvan, et see on tõesti oluline teadmine edaspidiseks. Panin sellele isegi kehtivusaja 100 aastat - no never expires, nagu öeldakse)
+Kõige rohkem pusimist oli kasutaja andmete toomisega API kaudu. Kasutasin fetch, pidin kontrollima, kas vastus tuleb üldse õigesti tagasi ja kuidas sealt täpselt neid eesnimesid ja email’e välja noppida. Kui lõpuks kõik tööle hakkas, oli mega hea tunne.
+Refleksioonina õppisin täna, kui tähtis on kohe alguses mõelda, kuidas andmed liiguvad – nii frontist backi kui ka tagasi. Ja kui mingi asi kohe ei tööta, siis natuke rahulikku googeldamist ja loogikat aitab peaaegu alati.
+Üldiselt oli täna mõnus päev, sain asjad tööle ja tundsin, et hakkan järjest rohkem pihta saama, mis päriselt toimub. 
+Alguses küll pusisin natuke nende fetch -idega, mingid vead tulid ja ei saanud kohe aru, miks andmeid ei näita. Aga lõpuks sain kõik korda ja nüüd töötab kõik ilusti.
+
+11.06.2025
+Täna tegelesin Voting lehe loomisega ja see oli väga huvitav tehniline väljakutse . 
+Idee oli teha midagi sarnast Tinderi stiilis swipe’iga, et kasutajad saaksid ideid meeldib või ei meeldi põhjal hinnata. 
+Alguses proovisin kasutada valmis npm paketti react-tinder-card, kuid see osutus üsna probleemseks,sest tekkis palju vigu ja konflikt komponentide ja versioone vahel. 
+Lõpuks otsustasin kirjutada loogika nullist ise,kasutades pointer-evente ja useRef, et hallata swipei liikumist. See oli paras õppimiskõver, aga lõpuks sain tööle süsteemi, kus vasakule tõmme annab dislike ja paremale like, misjärel laetakse uus idee API-st.
+Siis veel oli tuleb häälestatus like/dislike saata post päringuna aadressile /v1/voting/:id mis mul on tehtud fetchi kaudu mida eile sain aru kuidas kasutada õigesti. 
+Siis API tagastab seejärel kas järgmise idee, mida näidata või null, mis tähendab, et hääletamiseks enam ideid pole. Lisaks õppisin, kuidas swipe’i kauguse põhjal muuta overlay läbipaistvust, selline visuaalne tagasiside teeb kasutajakogemuse palju intuitiivsemaks. 
+Alguses esines probleeme Mobile View’ga ,swipe ei toiminud hästi väiksematel ekraanidel, aga pärast paari katsetust sain selle tööle ja kasutuskogemus muutus palju sujuvamaks.
+Refleksioonina sain aru, et mõnikord on lihtsam ja harivam,keeruline asi ise nullist valmis kirjutada, kui võidelda valmisraamistike vigade ja piirangutega. 
+Samuti mõistsin, kui oluline on põhjalikult testida mobiiliseadmetes, sest väikesed erinevused võivad väga palju mõjutada lõpptulemust. 
+Päev oli üsna pingeline, aga väga arendav, tunen, et hakkan paremini aru saama kuidas midagi arendatatakse,hallata keerukamat loogikat Next.js is.
+
