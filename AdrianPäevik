@@ -1,0 +1,21 @@
+1 päev
+Esimene praktikapäev tuli välja informatiivne, ja kasulik, et määratleda oma aega ja omavahel jagada harjutused esimeste päevadele. Pärast loenguid meie alustasime programeerimist osa, ja leppisime kokku, millega kes tegeleb. Mina ja Nikita teeme back-end’i osa, otsustasime, et jagame pooleks meie harjutusi. Enamasti tegelesime API’ga.
+
+2 päev
+Kogu meeskond oli keskendunud ja kõik planeeritud ülesanded said edukalt täidetud. Täpsemalt:
+Kasutajate autentimissüsteemi lõplik implementeerimine (JWT põhine) valmis ja testitud.
+Peamiste andmemudelite (User, Product, Order) andmebaasi skeemid loodud ja migreeritud.
+Operatsioonide alusendpunktid toodetele (GET, POST, PUT, DELETE) valmis ja esialgselt testitud. Tagasisedastus meeskonnalt oli positiivne.
+Vigade töötlemise standard API vastustes kehtestati ühtselt.
+
+3 päev
+Täna keskendusime esiplaani ülesandele: kodulehe (homepage) funktsionaalsuse lõpetamine seoses API-ga. Kuigi see on rohkem esiplaani teema, nõuab siiski tihedat koostööd meie taustaprogrammiga. Tänased saavutused:
+API päringud kodulehe andmete jaoks: Lõime ja lõplikult testisime kõik vajalikud API endpointid, mida koduleht vajab (nt toodete nimekiri, eripakkumised, statistikad).
+Andmete vormindamine: Tagasime, et API vastused oleksid kodulehe jaoks optimaalselt vormindatud (õiged väljad, liigsed andmed eemaldatud).
+Veebilehe efektiivsus: Optimeerisime päringuid ja vahemällu salvestamist, et koduleht laaduks hästi.
+Testimine läbitud: Kodulehe osa, mis sõltub meie API-st, on edukalt läbinud integreerimise testid. 
+
+4 päev
+
+
+
