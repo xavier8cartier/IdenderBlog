@@ -1,0 +1,48 @@
+📆 10.06 – OTP kontrollleht ja kasutajakogemus
+Peamine tegevus või avastus:
+Täna tegelesin OTP (One-Time Password) sisestamise akna loomisega. Eesmärk oli, et pärast edukat registreerimist ilmuks koodisisestuse aken ainult siis, kui server vastab koodiga 201.
+
+Õppimine:
+Sain parema arusaama tingimusliku renderduse loogikast Reactis ning sellest, kuidas jagada vormi loogika mitmeks etapiks. Samuti õppisin API vastustelt sõltuvat kasutajateed (flow’d) paremini modelleerima.
+
+Järeldus:
+Kui serverilt saadud olek määrab kasutajale kuvatava sisu, peab komponentide ülesehitus olema paindlik ja hästi struktureeritud. On oluline selgelt eristada olekud, kus kasutaja ei ole veel registreerunud, on registreerunud, või on sisseloginud.
+
+Edasine tegevus:
+Tulevikus planeerin lisada OTP kinnituse järel suunamise sisselogimislehele ning ka “resend OTP” nupu. Kaasates rohkem reaalajas tagasisidet parandab see kasutajakogemust veelgi. 
+📆 11.06 – “Minu ideed” leht ja kasutaja tuvastamine
+Peamine tegevus või avastus:
+Täna täiendasin “Minu ideed” lehte nii, et see kontrollib esmalt, kas kasutaja on sisse logitud, kasutades /v1/oauth/me API otspunkti. Kui kasutaja on tuvastatud, laaditakse tema ideed kasutades vastavat userId väärtust.
+
+Õppimine:
+Sain väga hea kogemuse, kuidas siduda järjestikuseid API-kutsed kasutaja tuvastamiseks ja isiklike andmete laadimiseks. Oli kasulik kogemus mitme useEffect kasutamisel sõltuvuste põhjal.
+
+Järeldus:
+Isiklike andmete kuvamisel on oluline kõigepealt kontrollida kasutaja autentimist. Samuti tuleb arvestada olukorraga, kus kasutaja ei ole sisse logitud — see vajab eraldi käsitlemist (veateade, suunamine jne).
+
+Edasine tegevus:
+Kavatsen hiljem lisada ideede loetelule ka lisamise ja muutmise võimaluse ning võib-olla mõne filtrifunktsiooni. Samuti võiks mõelda rollipõhisele ligipääsukontrollile.
+
+
+
+📆 12. juuni 2025 –  Arendus,  API ühendused, autentimine, CORS
+📌 Päeva sündmus: API päringute parandamine ja turvaliseks muutmine
+Täna keskendusin sellele, et kõik meie rakenduse lehed kasutaksid korrektselt API-päringuid ilma CORS-vigadeta ja pärast sisselogimist ei tekiks autentimisvigu. Kontrollisin ja parandasid igal lehel Authorization headeri lisamise, kasutasin Bearer ${token} formaati ja veendusin, et kõik päringud saadavad ka credentials: 'include'.
+
+Lisaks kirjutasin ümber kõik lehed (nt homepage, myideaspage, newideapage, votingpage), et nad käsitleksid vigu ja laadimist loogilisemalt ning kasutajasõbralikumalt.
+
+🔎 Mida ma avastasin / õppisin (Kolbi mudel):
+💡 Kogemus:
+API ei tööta õigesti, kui Authorization-header on valesti vormindatud või puudu. Ka credentials: 'include' on oluline, kui kasutame cookie-põhist sessiooni.
+
+🤔 Refleksioon:
+Varasemalt olin harjunud lihtsalt fetch()-i kasutama, aga täna mõistsin, et iga detail (nt headeri õigekiri, tokeni olemasolu kontroll) mõjutab süsteemi töökindlust väga palju.
+
+📚 Teooria:
+HTTP-autentimine ja CORS-mehhanismid töötavad koos – kui üks komponent on puudu või valesti seadistatud, võib klient-server suhtlus täielikult ebaõnnestuda.
+
+🛠 Rakendamine:
+Lõin authFetch() helper-funktsiooni idee, mis muudaks API-päringute kirjutamise ühtlaseks ja turvaliseks. Edaspidi saame kogu tiimiga seda kasutada.
+
+✅ Kokkuvõte:
+Täna tehtud parandused muudavad kogu rakenduse turvalisemaks ja töökindlamaks. Tunnen, et sain sammu lähemale päris arendaja mõtteviisile – iga rida koodi peab olema läbimõeldud ja täpne.
