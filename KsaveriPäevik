@@ -32,3 +32,14 @@ KÕIK MUUDATUSED VIIMASE 4 TUNDI JOOKSUL KADUSID ÄRA. Mina, Adrian ja Nikita ha
 
 Muidu kasulik töö osas päev ja nüüd lähen magama. 
 
+12.06.25
+Another day - another dollar(code)! 
+Päev on peaaegu läbi ja nüüd teen kokkuvõtet. 
+Valisin endale täna suht keeruline ülesande - pidin ideas/:id lehel lisama kommentaarid, lisama vote counteri (tähendab ka, et tegin admin vaate just sellel lehel valmis), 
+lisasin võimalust eemaldada kommentaari ja muuta idea staatuss (kas vastuvõetud, tagasilükatud, pending jne). Testida ei saanud, kuna staatuse muutmise osas tekkis CORS viga 
+(ehk enne kui see on korras back-endis - ei saagi testida) , aga kommenteerimise osas oli “requested resource has not been found” ehk jälle - back-end)  - 
+korda seda ei saanud kuna Nikita pidi ära minema ja need vead tekkisid pärast tema lahkumist. Adrian üksinda ei saanud hakkama, sest nagu ma sain aru - nende kahe endpoindi ees vastutas just Nikita. 
+Homme teeme seda korda, no worries. 
+Oli ka selline mure, et pärast kommentaaride lisamist kui refreshida lehti - kommentaarid kadusid ja ilmnesid ilma selge mustrita. 
+Õnneks lahendus oli leitud - panin isLoading State see lehele ja pilt lehel tekkis alles siis kui front-end sai back-endist vastuse. H
+uvitav asi, nüüd ma kindlasti tean rohkem. Muidu tuju on hea ja vaatan otse hea meelega!.
