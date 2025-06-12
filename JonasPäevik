@@ -1,0 +1,40 @@
+**Postitus (09.06.25 18:10)**
+--------
+
+- Esimene päev oli päris suur sisseelamise kogemus, me installisime oma seadmetele vajalikud algsed komponendid ja vajatavad failid/rakendused.
+- Samuti ka kinnitasime oma rollid meeskonnas, nt mina tegelen peamiselt frontendi arendusega ja selle backendiga põimimisega.
+- Lõime ka Jira keskkonnas agile süsteem, kus jagasime ja määrasime endale ülesandeid, mina võtsin endale login-lehe loomise ja selle sidumise backendiga, et saaks testima hakata, testimislehe loomise, millega saaksime kiirelt navigeerida oma loodud lehtedele
+- Samuti võtsin enda peale ka Home-lehe loomise.
+- Koostöö meeskonnaga esimesel päeval sujus ladusalt, ülesanded said kiirelt jagatud ning saime kiirelt tööle hakata. Aeg-ajalt oli vaja üksteiselt kiireid küsimusi küsida või midagi arutada ning needki väga kiirelt ja ladusalt läksid, alguses suhtlesime set-up-protsessikäigus väga tihedalt omavahel, et veenduda, et me kõik saaksime samamoodi installeeritud.
+
+Peamine sündmus täna oli kindlasti algne sisseelamine ja ühiselt vajamineva installimine, sest see tõesti tekitas suurema projekti alustamise tunde.
+Üks peamisi avastusi minu jaoks oli ilmselt next.js-i komponendid, paljusidki neist oli üllatavalt lihtne kasutada, nagu näiteks <Link></Link>, mida proovisin kasutada Router.route() asemel, mis vajas sarnaselt ainult lingitava lehekülje failiasukohta.
+Peamine tänane kogemus oli esimeste lehtede loomine vebisaidi jaoks ning nende arendamine. Need veel ei näinud täiesti valmis välja, kuid selle parandame hiljemalt homme ära.
+Tänane peamine nurjumine ilmselt oli githubi faile uuendades puuduvate dependencies'te otsimine, sest osad meist olid lisanud mõnesid uusi vajalikke rakendusi, järgmine kord suhtleme selgemalt ja küsin teistelt, enne kui hakkan otsima neid puuduvaid asju.
+
+
+**Postitus (10.06.25 16:08)**
+-----------
+
+Täna tegelesin põhjalikumalt meie peamiste lehtede visuaaliga ning lõpetasin muuhulgas login-lehe visuaalse poole ning valmistasin seda ette backendiga ühendamiseks.
+Tänane päev oli eilsest palju erinevam, sest ühel meie grupikaaslasel ei olnud võimalik hommikul ilmuda, mistõttu pidin võtma enda peale mõned tema vastutused, nimelt arendasin edasi ja lõin spetsiifilisi lehti ning jagasin ära ülesandeid meie grupi vahel.
+Ülesannete jagamine ja grupikaaslaste haldamine oli minu jaoks päris keeruline ning arvan, et oleksin pidanud isegi rohkem nendega täna suhtlema, et me rohkem samal joonel oleksime, ütleksin, et seda võib pidada minu tänaseks nurjumiseks.
+Sai lõpetatud ka eelnevalt mainitud testimisleht, mis polnud küll midagi erilist, aga selle sai ka vähemalt muude tähtsamate asjade tegemise vahel mul lõpetatud ning nüüd said kõik seda kasutada oma lehekülgede kontrollimiseks ja testimiseks. 
+Nagu mainitud sai, hakkasin valmistama ette login-lehe ja andmebaasi vahelist ühendust, mis võttis mul suhteliselt kaua, sest ma next.js-i dokumentatsiooni järgides leidsin, et nende pakutav lahendus ei klappinud päris meie implementatsiooniga ning pidin natuke midagi muud leiutama ning grupikaaslaselt abi küsima, kes oskas mind andmebaasiühendusega seonduvate küsimuste osas väga hästi aidata.
+
+Täna sai tehtud ka palju väiksemaid uuendusi, muutsin lehti üldiselt mobiilisõbralikumaks, sest meie idee ongi, et see on peamiselt koolis ja kodus õpilaste jaoks kasutamiseks, kes kõik kasutavad peamiselt nutitelefone, mistõttu klient telliski meilt mobiilisõbraliku rakenduse.
+Ülejäänud päeva sujus koostöö üleüldiselt edukalt, kuigi oli natukene kiirem meil ilma ühe meeskonnaliikmeta, usun, et saime sellega väga edukalt hakkama.
+Minu tänane avastus oli ilmselt põhjalikum süvenemine rakendustesse nagu Zod ja Bcrypt, mida rakendasin login-lehe tarvis sisselogimisprotsessi haldamiseks.
+Päeva peamine sündmus minu jaoks täna oli kindlasti meeskonna juhtimine kaasliikme puudumisel, mis oli natuke keeruline, aga väga kasulik kogemus.
+Päeva peamine kogemus tähtsate lehtede töölesaamine, mis oli väga rahuldav kogemus ning andis juurde kõvasti motivatsiooni projekti lõpetamiseks, sest on palju lihtsam lõppu ette kujutada kui on juba mingisugune lõpusarnane visuaalne külg olemas.
+
+
+**Postitus (11.06.25 18:31)**
+-------------
+
+Tänane päev oli üsna tihe, pidime palavikuliselt valmis saama peamised ühendused andmebaasi ja veebilehtede vahel, et meie ülejäänud meeskond saaks juba backendi läbi frontendi testima hakata (Eile sai testimisi tehtud Postmanis, aga vaja on ka päris veebilehel veenduda, et arendus saaks tempokalt jätkuda).
+Lõin peamisel login-lehel ühenduse andmebaasiga ning koos meeskonnaliikmetega testisime seda põhjalikult ning veendusime, et olime minupoolsel frontendil ja nendepoolsel backendil küpsisefailid ja SID (Session ID) korrektselt implementeerinud, ja pärast paari muudatust tundus, et saime kõik tööle nagu vaja.
+Avastasin ka, et minu loodud Home'leht ei olnud üldse mobiilisõbralik, sest lehe Header kattis mobiilivaates ära suure osa lehe sisust, mistõttu hakkasin sellega palavikulislt tegeleme, et saaks selle korralikult tööle, mille järel võtsin ette ka kõik teised lehed, et need põhjalikult ülekontrollida ja veenduda, et need oleks meie vajadustele vastavalt mobiilisõbralikud. Kuna mitmed teised meeskonnaliikmed testisid veel sisselogimist ja tegid sellel ja paaril teisl lehel väiksemaid muudatusi, ootasin kuni päeva lõpuni, et oma tehtud muudatudes githubi pushida, ennem tõmbasin uuendused oma seadmesse ning sisestasin sisse kõik oma tehtud muudatused ning veendusin, et implementeerides nende tehtud muudatusi koos minu parendustega töötab nagu peab.
+Samuti sai muudetud ümber ka meie veebilehe struktuur, et see sarnaneks rohkem lõpliku versiooniga, muuhulgas näiteks grupeerisime ära veebilehed, millele peaks pääsema ligi igaüks ning lehed, millele saamiseks pead olema autentitud süsteemi poolt. Pärast nende muudatuste tegemist tegin veidi ümber ka kõiki vajalikke linke ja nuppe, et need õigesti viiks uutele ja muudetud vanadele lehtedele.
+Tänane nurjumine leidis aset Visual Studio Code ja GitHubi vahelise ühendusprobleemi näol, nimelt oli konfiguratsioonis tekkinud viga, mistõttu pidin failid algul manuaalselt päeval üles laadima, ning siis parandasin selle vea ära ning uuendasin faile taaskord otse Visual Studiost. 
+Avastasin enda joks, et git-i on palju lihtsam kasutada terminalist kui rakendusest tihti, sest terminalis ei pea sa otsima mingeid nuppe, mis teevad mingeid kindlaid funktsioone (ning tihti nende hulgas ei ole mõnesid tähtsaid funktsioone nagu näiteks git stash).
